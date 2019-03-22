@@ -234,6 +234,8 @@ git log --grep='*bug*' | filters down to the commits that reference the specifie
 
 
 ##GIT REMOTE
-git remote add| Add a connection to a new remote repository.
+| Key/Command | Description |
+| ----------- | ----------- |
+git remote add| Add a remote connection.
 git remote -v | See the details about a connection to a remote.
-git push origin master
+git remote add *upstream* https://url.com | adds a new remote connection with the shortname *upstream*
