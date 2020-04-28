@@ -136,7 +136,7 @@ _Letters are shown capitalized for readability only._
 | apropos [search-pattern] | Searches for command with keywords in description |
 
 
-##TERMINAL
+## TERMINAL
 
 | Key/Command | Description |
 | ----------- | ----------- |
@@ -158,7 +158,7 @@ pbcopy < [file]|Copies file contents to clipboard
 pbpaste|Paste clipboard contents
 pbpaste > [file]|Paste clipboard contents into file e.g. pbpaste > paste-test.txt
 
-##DIRECTORY MANAGEMENT
+## DIRECTORY MANAGEMENT
 | Key/Command | Description |
 | ----------- | ----------- |
 mkdir [dir]|Create new directory
@@ -170,7 +170,7 @@ less [file]|Output file content delivered in screensize chunks
 [command] >> [file]|Append output to existing file
 [command] < [file]|Tell command to read content from a file
 
-##SEARCH
+## SEARCH
 | Key/Command | Description |
 | ----------- | ----------- |
 |find [dir] -name [search_pattern]|Search for files e.g. find /Users -name file.txt|
@@ -191,7 +191,7 @@ man [command]|Show the help manual for [command]
 whatis [command]|Gives a one-line description of [command]
 apropos [search-pattern]|Searches for command with keywords in description
 
-##LESS
+## LESS
 | Key/Command | Description |
 | ----------- | ----------- |
 j or ↓|scroll down by a line
@@ -221,7 +221,7 @@ git clone *URL* | create a new local repo cloning a remote repository
 git push | sync the remote with your local commits
 git merge | Merge the commits from the local and remote repositories
 
-##GIT LOG
+## GIT LOG
 | Key/Command | Description |
 | ----------- | ----------- |
 git log --oneline|Each commit on one line
@@ -233,7 +233,7 @@ git log --author=*Bob* | filter down to the commits to the specified author (Bob
 git log --grep='*bug*' | filters down to the commits that reference the specified string (bug)
 
 
-##GIT REMOTE
+## GIT REMOTE
 | Key/Command | Description |
 | ----------- | ----------- |
 git remote add| Add a remote connection.
