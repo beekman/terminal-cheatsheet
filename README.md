@@ -181,7 +181,7 @@ grep -i [search_pattern] [file]|Search for all lines that contain the case-insen
 mdfind [search_pattern]|Spotlight search for files (names / content / other metadata) e.g. mdfind skateboard"
 mdfind -onlyin [dir] -name [pattern]|Spotlight search for files named like pattern in the given directory
 
-##HELP
+## HELP
 | Key/Command | Description |
 | ----------- | ----------- |
 [command] -h|Offers help
