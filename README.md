@@ -200,24 +200,24 @@ spacebar or Page Down|scroll down by a page
 b or Page Up|scroll up by a page
 q|quit
 
-##Git Commits
+## GIT COMMITS
 | Key/Command | Description |
 | ----------- | ----------- |
-git add filename | adds filename to the commit
-git add . | stages all new files and changed files to the commit, but doesn't track files that you deleted locally.
-git add -a | stages all new files, changed files, _and file deletions_ to the commit.
+git add filename | Adds filename to the commit
+git add . | Stages all new files and changed files to the commit, but doesn't track files that you deleted locally.
+git add -a | Stages all new files, changed files, _and file deletions_ to the commit.
 git commit -m '*your commit message*'|Skips the commit message stage, using your commit message instead
 git commit --amend|updates prior commit rather than creating a new commit
 git diff|compare
 git tag -a|Add a marker to the most recent commit. Append sha of commit to add tags later
 git tag -d|Delete a tag
-git branch|to list all branches
-git branch *branch*|to create a new "footer-fix" branch
-git branch -d *branch*|to delete the "footer-fix" branch
-git checkout *branch*|switches to the branch
-git revert <SHA-of-commit-to-revert>|takes the changes in a commit and does the exact opposite
-| git pull |  pulls changes from the remote server and brings your local repo up to date.
-git fetch | use when you have changes on both remote and local and you don't want to overwrite local changes.
+git branch|List all branches
+git branch *branch*|Create a new "footer-fix" branch
+git branch -d *branch*|Delete the "footer-fix" branch
+git checkout *branch*|Switch to the branch
+git revert <SHA-of-commit-to-revert>|Takes the changes in a commit and does the exact opposite
+| git pull | Pulls changes from the remote server and brings your local repo up to date.
+git fetch | Use when you have changes on both remote and local and you don't want to overwrite local changes.
 git clone *URL* | create a new local repo cloning a remote repository
 git push | sync the remote with your local commits
 git merge | Merge the commits from the local and remote repositories
