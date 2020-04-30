@@ -204,7 +204,8 @@ q|quit
 | Key/Command | Description |
 | ----------- | ----------- |
 git add filename | adds filename to the commit
-git add . | stages everything to the commit
+git add . | stages all new files and changed files to the commit, but doesn't track files that you deleted locally.
+git add -a | stages all new files, changed files, _and file deletions_ to the commit.
 git commit -m '*your commit message*'|Skips the commit message stage, using your commit message instead
 git commit --amend|updates prior commit rather than creating a new commit
 git diff|compare
